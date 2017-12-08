@@ -1,9 +1,8 @@
 ---
 layout: home
 comments: false
+title: Hi!
 ---
-
-# Hi!
 
 My name is Jens Ochsenmeier, I'm a Computer Science and Mathematics student at the [Karlsruhe Institute of Technology (KIT)](https://kit.edu/) and work in Data Mining for Production Control at [Daimler AG](https://daimler.com). 
 
