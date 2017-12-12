@@ -34,26 +34,27 @@ Anschließend muss man noch die Domain in den Einstellungen des Github-Repos ein
 
 {% include figure image_path="/assets/images/posts/2017-12/github-pages.png" alt="DNSEinrichten" caption="Einrichten der DNS-Einträge bei Namecheap." %}
 
-Nun muss nur noch Jekyll aufgesetzt werden.
+Nun muss nur noch Jekyll aufgesetzt werden. Gegebenenfalls muss davor noch Ruby gemeinsam mit gem installiert werden.
 
 ## Jekyll einrichten
 
-```Shell
+{% highlight shell %}
 ~ $ gem install jekyll bundler
 ~ $ jekyll new my-homepage
 ~ $ cd my-homepage
 ~/my-homepage $ bundle exec jekyll share
-```
+{% endhighlight %}
+
 
 Nun ist die aktuelle Version unter `http://localhost:4000/` erreichbar.
 Anschließend muss noch git eingerichtet werden:
 
-```Shell
+{% highlight shell %}
 ~/my-homepage $ git init
 ~/my-homepage $ git remote add origin https://github.com/[Nutzername]/[Nutzername].github.io
 ~/my-homepage $ git commit -am "init"
 ~/my-homepage $ git push -u origin master
-```
+{% endhighlight %}
 
 Nun ist die aktuelle Version der Seite auch auf Github (und, falls eingerichtet, auch unter der oben angegebenen Domain) erreichbar. Github kompiliert die Seite selbstständig :blush:
 
