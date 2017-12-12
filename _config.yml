@@ -4,8 +4,8 @@ locale                   : "en"
 title                    : "Jens Ochsenmeier"
 title_separator          : "-"
 description              : "My personal homepage. Here you can find information about me and my projects and a lot of university related stuff."
-favicon                  : "/assets/images/me.webp"
-avatar                   : "/assets/images/me.webp"
+favicon                  : "/assets/images/me.jpg"
+avatar                   : "/assets/images/me.jpg"
 url                      : "http://jens-ox.de" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog" leave blank if no subpath
 
