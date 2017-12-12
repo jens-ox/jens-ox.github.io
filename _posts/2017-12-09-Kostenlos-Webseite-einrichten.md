@@ -20,7 +20,7 @@ Bisher hab ich meine Webseite entweder selber geschrieben oder ein CMS wie [Ghos
 
 ## Vorbereitungen
 
-- Neues Repo mit dem Name `[Nutzername].github.io` einrichten (mehr Info bei [Github Pages](https://pages.github.com/))
+- Neues Repo mit dem Name `[Nutzername].github.io` einrichten (mehr Infos bei [Github Pages](https://pages.github.com/))
 - Neue Domain erwerben (über das Github Student Pack kriegt man eine .me-Domain ein Jahr gratis bei Namecheap)
 
 ## DNS einrichten
@@ -32,7 +32,7 @@ Falls man sich dafür entscheidet, eine Extra-Domain einzurichten, muss man noch
 
 Anschließend muss man noch die Domain in den Einstellungen des Github-Repos eintragen:
 
-{% include figure image_path="/assets/images/posts/2017-12/github-pages.png" alt="DNSEinrichten" caption="Einrichten der DNS-Einträge bei Namecheap." %}
+{% include figure image_path="/assets/images/posts/2017-12/github-pages.png" alt="Github Page einrichten" caption="Eintragen der Domain in den Github Pages-Einstellungen des Repos." %}
 
 Nun muss nur noch Jekyll aufgesetzt werden. Gegebenenfalls muss davor noch Ruby gemeinsam mit gem installiert werden.
 
