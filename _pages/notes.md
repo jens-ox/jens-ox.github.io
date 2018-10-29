@@ -16,8 +16,8 @@ I write summaries and other materials for most of the courses I take and host th
 
 ### Computer Science
 
-- **Operating Systems**: Summary <br> [PDF download](https://github.com/Jintzo/OS/raw/master/main.pdf), <br> [Github Repository](https://github.com/Jintzo/OS) <br> *Note: this is a work in progress.*
-- **Algorithms II**: Summary <br> [PDF download](https://github.com/Jintzo/AlgoII/raw/master/main.pdf), <br> [Github Repository](https://github.com/Jintzo/AlgoII) <br> *Note: this is a work in progress.*
+- **Operating Systems**: Summary <br> [PDF download](https://github.com/Jintzo/OS/raw/master/main.pdf), <br> [Github Repository](https://github.com/Jintzo/OS)
+- **Algorithms II**: Summary <br> [PDF download](https://github.com/Jintzo/AlgoII/raw/master/main.pdf), <br> [Github Repository](https://github.com/Jintzo/AlgoII)
 - **Database Systems**: Summary <br> [PDF download](https://github.com/Jintzo/DBS/raw/master/main.pdf), <br> [Github Repository](https://github.com/Jintzo/DBS)
 - **Computer Networks**: Summary <br> [PDF download](https://github.com/Jintzo/RN-2/raw/master/main.pdf), <br> [Github Repository](https://github.com/Jintzo/RN-2)
 - **Computer Organization**: Summary <br> [PDF download](https://github.com/Jintzo/RO/raw/master/Zusammenfassung-RO.pdf), <br> [Github Repository](https://github.com/Jintzo/RO)
