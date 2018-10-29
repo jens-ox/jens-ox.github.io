@@ -20,7 +20,7 @@ og_image                 : "/assets/images/me.jpg" # Open Graph/Twitter default 
 
 # Social sharing
 twitter:
-  username               : "jochsenmeier" # optional, for social sharing
+  username               : "jens_ox" # optional, for social sharing
 
 # Reading Files
 include:
