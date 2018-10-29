@@ -8,8 +8,8 @@ I write summaries and other materials for most of the courses I take and host th
 
 ### Mathematics
 
-- **Elementary Geometry**: Lecture notes <br> [PDF download](https://github.com/Jintzo/elementare-geometrie/raw/master/main.pdf), <br> [Github Repository](https://github.com/Jintzo/elementare-geometrie) <br> *Note: this is a work in progress.*
-- **Graph Theory**: Summary <br> [PDF download](https://github.com/Jintzo/graph-theory-summary/raw/master/main.pdf), <br> [Github Repository](https://github.com/Jintzo/graph-theory-summary) <br> *Note: this is a work in progress.*
+- **Elementary Geometry**: Lecture notes <br> [PDF download](https://github.com/Jintzo/elementare-geometrie/raw/master/main.pdf), <br> [Github Repository](https://github.com/Jintzo/elementare-geometrie)
+- **Graph Theory**: Summary <br> [PDF download](https://github.com/Jintzo/graph-theory-summary/raw/master/main.pdf), <br> [Github Repository](https://github.com/Jintzo/graph-theory-summary)
 - **Linear Algebra I/II**: Exam question collection <br> [PDF download](https://github.com/Jintzo/Klausuraufgaben-LA/raw/master/main.pdf), <br> [Github Repository](https://github.com/Jintzo/Klausuraufgaben-LA)
 - **Linear Algebra II**: Summary <br> [PDF download](https://github.com/Jintzo/Zusammenfassung-LA2/raw/master/Zusammenfassung-LA2.pdf), <br> [Github Repository](https://github.com/Jintzo/Zusammenfassung-LA2)
 - **Linear Algebra I**: Summary <br> [PDF download](https://github.com/Jintzo/Zusammenfassung-LA1/raw/master/Zusammenfassung-LA1.pdf), <br> [Github Repository](https://github.com/Jintzo/Zusammenfassung-LA1)
