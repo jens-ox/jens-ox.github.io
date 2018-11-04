@@ -4,7 +4,7 @@
       {% if site.avatar contains "://" %}
         <img src="{{ site.avatar }}" alt="{{ site.name }}">
       {% else %}
-        <a href="{{ site.avatar | absolute_url }}">
+        <a href="{{ site.avatar | absolute_url }}" aria-label="avatar">
           <img src="{{ site.avatar_small | absolute_url }}" alt="{{ site.name }}">
         </a>
       {% endif %}
