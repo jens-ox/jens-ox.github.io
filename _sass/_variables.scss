@@ -44,8 +44,8 @@ $border-color               : #b2b2b2 !default;
 
 /* links */
 $link-color                 : $theme-color !default;
-$link-color-hover           : mix(#fff, $link-color, 40%) !default; 
-$link-color-visited         : mix(#000, $link-color, 25%) !default;
+$link-color-hover           : mix(#000, $link-color, 25%) !default; 
+$link-color-visited         : $theme-color !default;
 $entry-link-color           : $text-color !default;
 $entry-link-color-hover     : $theme-color !default;
 
