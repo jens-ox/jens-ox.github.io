@@ -2,7 +2,7 @@
 main:
   - title: "home"
     url: /
-  - title: "notes"
+  - title: "course notes"
     url: /notes
   - title: "posts"
     url: /blog
