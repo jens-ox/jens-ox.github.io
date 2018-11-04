@@ -56,7 +56,7 @@ Anschließend muss noch git eingerichtet werden:
 ~/my-homepage $ git push -u origin master
 {% endhighlight %}
 
-Nun ist die aktuelle Version der Seite auch auf Github (und, falls eingerichtet, auch unter der oben angegebenen Domain) erreichbar. Github kompiliert die Seite selbstständig :blush:
+Nun ist die aktuelle Version der Seite auch auf Github (und, falls eingerichtet, auch unter der oben angegebenen Domain) erreichbar. Github kompiliert die Seite selbstständig.
 
 ## Jekyll aufhübschen
 
@@ -64,4 +64,4 @@ Das Default-Theme von Jekyll finde ich persönlich ziemlich hässlich. Zum Glüc
 
 Alternativ kann man ein Theme auf Github forken (ich verwende [Sparrow](https://github.com/lingxz/sparrow)) und das direkt als `[Nutzername].github.io`-Repo verwenden.
 
-Das war's! :smile:
+Das war's!

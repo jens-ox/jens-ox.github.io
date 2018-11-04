@@ -21,7 +21,6 @@ gem "jekyll", "~> 3.6.2"
 group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1"
   gem "jekyll-feed", "~> 0.8"
-  gem "jemoji"
   gem "jekyll-assets"
   gem "uglifier"
   gem "sass"
