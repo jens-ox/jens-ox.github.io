@@ -6,6 +6,7 @@ title_separator          : "-"
 description              : "My personal homepage. Here you can find information about me and my projects and a lot of university related stuff."
 favicon                  : "/assets/images/favicon.ico"
 avatar                   : "/assets/images/me.jpg"
+avatar_small             : "/assets/images/me_small.jpg"
 url                      : "https://jens-ox.de" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog" leave blank if no subpath
 
