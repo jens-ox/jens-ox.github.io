@@ -16,13 +16,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- For all browsers -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:400,700">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | absolute_url }}">
     <meta http-equiv="cleartype" content="on">
+    <script>
+      function loadStyleSheet(src){
+          if (document.createStyleSheet) document.createStyleSheet(src);
+          else {
+              var stylesheet = document.createElement('link');
+              stylesheet.href = src;
+              stylesheet.rel = 'stylesheet';
+              stylesheet.type = 'text/css';
+              document.getElementsByTagName('head')[0].appendChild(stylesheet);
+          }
+      }
+    </script>
   </head>
-
+  
   <body>
     {{ content }}
   </body>
