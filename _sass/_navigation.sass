@@ -45,3 +45,9 @@ nav:not(.breadcrumbs)
 
   li
     display: inline-block
+
+    &:before
+      content: '/ '
+
+    &:first-child:before
+      content: ''
