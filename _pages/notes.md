@@ -1,7 +1,7 @@
 ---
 title: "Lecture notes"
 permalink: /notes
-layout: post
+layout: page
 ---
 
 I write summaries and other materials for most of the courses I take and host them on Github. Here is a list of all of them:

@@ -1,44 +1,30 @@
-<div class="topnav">
-  {% if site.avatar %}
-    <div class="topnav__avatar">
-      {% if site.avatar contains "://" %}
-        <img src="{{ site.avatar }}" alt="{{ site.name }}">
+<nav>
+  <ul>
+    {% for link in site.data.navigation.main %}
+      {% if link.url contains 'http' %}
+        {% assign domain = '' %}
       {% else %}
-        <a href="{{ site.avatar | absolute_url }}" aria-label="avatar">
-          <img src="{{ site.avatar_small | absolute_url }}" alt="{{ site.name }}">
-        </a>
+        {% assign domain = site.url | append: site.baseurl %}
       {% endif %}
-    </div>
-  {% endif %}
-
-  <div class="topnav__content">
-    <h3 class="site__name">{{ site.title }}</h3>
-    
-    <nav>
-      <ul id="navigation" class="links slimmenu">
-        {% for link in site.data.navigation.main %}
-          {% if link.url contains 'http' %}
-            {% assign domain = '' %}
-          {% else %}
-            {% assign domain = site.url | append: site.baseurl %}
-          {% endif %}
-          <li class="menu-item">
-            <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-            {% if link.children %}
-              <ul>
-                {% for child in link.children %}
-                  {% if child.url contains 'http' %}
-                    {% assign domain = '' %}
-                  {% else %}
-                    {% assign domain = site.url | append: site.baseurl %}
-                  {% endif %}
-                  <li><a href="{{domain }}{{child.url}}">{{ child.title }}</a></li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </div>
-</div>
+      <li>
+        {% if page.url == link.url %}
+          <a class="active" href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+        {% else %}
+          <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+        {% endif %}
+        {% if link.children %}
+          <ul>
+            {% for child in link.children %}
+              {% if child.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url | append: site.baseurl %}
+              {% endif %}
+              <li><a href="{{domain }}{{child.url}}">{{ child.title }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

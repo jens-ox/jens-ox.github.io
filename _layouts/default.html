@@ -21,14 +21,7 @@
     <meta http-equiv="cleartype" content="on">
   </head>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-
+  <body>
     {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.</div>
-      </footer>
-    </div>
   </body>
 </html>

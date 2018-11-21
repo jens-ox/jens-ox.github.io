@@ -13,7 +13,6 @@ My main interests are
 
 I occasionally contribute to [open source projects](https://github.com/jens-ox) and enjoy running and cycling.
 
+## Contact
 
-
-
-
+You can reach out via [mail](mailto:mail@jens-ox.de), [Twitter](https://twitter.com/jens_ox) and other stuff.
