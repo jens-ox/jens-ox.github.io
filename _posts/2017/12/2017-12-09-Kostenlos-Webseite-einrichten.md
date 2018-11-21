@@ -62,6 +62,6 @@ Nun ist die aktuelle Version der Seite auch auf Github (und, falls eingerichtet,
 
 Das Default-Theme von Jekyll finde ich persönlich ziemlich hässlich. Zum Glück gibt es einen Haufen Themes, die man in den Einstellungen des Github-Repos eintragen kann.
 
-Alternativ kann man ein Theme auf Github forken (ich verwende [Sparrow](https://github.com/lingxz/sparrow)) und das direkt als `[Nutzername].github.io`-Repo verwenden.
+Alternativ kann man ein Theme auf Github forken (ich habe lange [Sparrow](https://github.com/lingxz/sparrow) verwendet) und das direkt als `[Nutzername].github.io`-Repo verwenden.
 
 Das war's!
