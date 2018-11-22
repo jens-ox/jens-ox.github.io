@@ -1,15 +1,30 @@
-nav:not(.breadcrumbs)
-  font-family: $font-sans
+nav
   background-color: $grey-lighter
   padding: 1rem
-  padding-left: 2.5rem
 
-  ul
+  .page
+    margin: 0 auto
+
+  ul, ol, a
     margin-bottom: 0
 
   li
     display: inline-block
 
+.breadcrumbs
+  padding-left: 0
+  font-size: .875rem
+
+  li
+    display: inline-block
+
+    &:before
+      content: '/ '
+
+    &:first-child:before
+      content: ''
+
+nav:not(.breadcrumbs)
   a
     position: relative
     color: $black
@@ -34,20 +49,3 @@ nav:not(.breadcrumbs)
 
     &.active:before
       opacity: 1
-
-.breadcrumbs
-  font-size: .875rem
-  padding: 0
-  background-color: transparent
-
-  ol, a
-    margin: 0
-
-  li
-    display: inline-block
-
-    &:before
-      content: '/ '
-
-    &:first-child:before
-      content: ''

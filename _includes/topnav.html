@@ -1,30 +1,32 @@
 <nav>
-  <ul>
-    {% for link in site.data.navigation.main %}
-      {% if link.url contains 'http' %}
-        {% assign domain = '' %}
-      {% else %}
-        {% assign domain = site.url | append: site.baseurl %}
-      {% endif %}
-      <li>
-        {% if page.url == link.url %}
-          <a class="active" href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+  <div class="page">
+    <ul>
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains 'http' %}
+          {% assign domain = '' %}
         {% else %}
-          <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+          {% assign domain = site.url | append: site.baseurl %}
         {% endif %}
-        {% if link.children %}
-          <ul>
-            {% for child in link.children %}
-              {% if child.url contains 'http' %}
-                {% assign domain = '' %}
-              {% else %}
-                {% assign domain = site.url | append: site.baseurl %}
-              {% endif %}
-              <li><a href="{{domain }}{{child.url}}">{{ child.title }}</a></li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+        <li>
+          {% if page.url == link.url %}
+            <a class="active" href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+          {% else %}
+            <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+          {% endif %}
+          {% if link.children %}
+            <ul>
+              {% for child in link.children %}
+                {% if child.url contains 'http' %}
+                  {% assign domain = '' %}
+                {% else %}
+                  {% assign domain = site.url | append: site.baseurl %}
+                {% endif %}
+                <li><a href="{{domain }}{{child.url}}">{{ child.title }}</a></li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </nav>
