@@ -68,17 +68,6 @@ p
 strong
   font-weight: bold
 
-code
-  display: inline
-  font-family: $font-mono
-  font-size: .875rem
-  background-color: $grey-light
-  position: relative
-  line-height: 0
-  top: -.1rem
-  border-radius: 2px
-  padding: .125rem
-
 a
   color: $blue
   text-decoration: none
@@ -125,12 +114,6 @@ figure
   justify-content: center
   margin: 2rem 0
 
-  &.highlight
-    display: block
-    background-color: $grey-lighter
-    padding: 1rem
-    overflow-x: auto
-
   img
     display: block
     max-width: 100%
@@ -138,8 +121,6 @@ figure
 
   figcaption
     margin-top: .5rem
-  
-  code
-    background-color: transparent
 
 @import "navigation"
+@import "code"
