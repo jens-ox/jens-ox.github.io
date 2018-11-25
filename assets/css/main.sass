@@ -42,10 +42,13 @@ html
   color: $black
   font-family: $font-sans
 
+@supports (font-variation-settings: normal)
+  html
+    font-family: $font-sans-var
+
 h1, h2, h3, h4, h5
-  font-family: $font-sans
   font-weight: bold
-  margin: 1.5rem 0 1.5rem 0
+  margin: 1.5rem 0
 
 h1
   font-size: 1.875rem
@@ -61,10 +64,14 @@ header
   h1
     margin-bottom: 0
 
+p, li
+  font-size: 16px
+  letter-spacing: -0.005em
+  line-height: 22px
 
 p
   margin-bottom: 1rem
-
+  
 strong
   font-weight: bold
 
