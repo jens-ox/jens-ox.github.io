@@ -3,6 +3,6 @@ main:
   - title: "home"
     url: /
   - title: "notes"
-    url: /notes
+    url: /notes.html
   - title: "posts"
     url: /blog/
