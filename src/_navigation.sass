@@ -1,0 +1,42 @@
+nav
+  @apply p-4 font-bold
+
+  .page
+    @apply mx-auto my-0
+
+  ul, ol
+    @apply m-0 p-0 inline
+
+  li
+    @apply inline-block
+
+.breadcrumbs
+  @apply text-sm
+
+  ol
+    @apply ml-0
+
+  li
+    &:before
+      content: '/ '
+
+    &:first-child:before
+      content: ''
+
+nav:not(.breadcrumbs)
+  @apply pl-8
+  a
+    @apply relative text-black mr-8
+
+    &:before
+      @apply absolute bg-blue rounded-full inline-block opacity-0 h-2 w-2
+      transition: opacity 200ms ease
+      content: ''
+      left: -16px
+      top: 6px
+
+    &:hover:before
+      @apply opacity-75
+
+    &.active:before
+      @apply opacity-100

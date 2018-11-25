@@ -4,10 +4,9 @@ locale                   : "en"
 title                    : "Jens Ochsenmeier"
 title_separator          : "-"
 description              : "My personal homepage. Here you can find information about me and my projects and a lot of university related stuff."
-favicon                  : "/assets/images/favicon.ico"
-avatar                   : "/assets/images/me.jpg"
-avatar_small             : "/assets/images/me_small.jpg"
-url                      : "https://jens-ox.de" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+favicon                  : "/static/images/favicon.ico"
+avatar                   : "/static/images/me.jpg"
+avatar_small             : "/static/images/me_small.jpg"
 baseurl                  : "" # the subpath of your site, e.g. "/blog" leave blank if no subpath
 
 # Site Author
@@ -17,7 +16,7 @@ author:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
-og_image                 : "/assets/images/me.jpg" # Open Graph/Twitter default site image, optional for seo and social sharing
+og_image                 : "/static/images/me.jpg" # Open Graph/Twitter default site image, optional for seo and social sharing
 
 # Social sharing
 twitter:
@@ -28,10 +27,16 @@ include:
   - _pages
 # Files excluded from Jekyll builds
 exclude:
-- README.md
-- LICENSE
-- Gemfile
-- Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - src
+  - tailwind.js
+
 
 
 # Conversion
@@ -52,12 +57,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
@@ -93,8 +92,3 @@ defaults:
       layout: post
       comments: true
       share: true
-
-assets:
-  compress:
-    css:  sass
-    js:   uglifier

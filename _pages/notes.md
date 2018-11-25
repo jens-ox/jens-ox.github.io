@@ -1,6 +1,6 @@
 ---
 title: "Lecture notes"
-permalink: /notes
+permalink: /notes.html
 layout: page
 ---
 

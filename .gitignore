@@ -1,6 +1,4 @@
 *.gem
-*.sublime-project
-*.sublime-workspace
 .bundle
 .DS_Store
 .jekyll-metadata
@@ -11,5 +9,5 @@ codekit-config.json
 Gemfile.lock
 node_modules
 npm-debug.log*
-
-
+assets
+node_modules

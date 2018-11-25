@@ -1,26 +1,19 @@
 code
-  display: inline
+  @apply inline text-sm bg-grey-lighter relative
   font-family: $font-mono
-  font-size: .875rem
-  background-color: $grey-lighter
-  position: relative
   line-height: 0
   top: -.1rem
   border-radius: 2px
   padding: .125rem
 
 .highlight
-  position: relative
+  @apply relative block p-4 pr-0
   background-color: #fdf6e3
   color: #586e75
-  display: block
-  padding: 1rem
-  padding-right: 0
   overflow-x: auto
 
   code
-    background-color: transparent
-    margin-right: 1rem
+    @apply bg-transparent mr-4
 .highlight .c
   color: #93a1a1
 .highlight .err
