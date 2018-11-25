@@ -3,29 +3,7 @@
 @tailwind utilities
 
 @import "fonts"
-
-
-/* Mixins */
-$mobileLandscape: 600px
-$tablet: 900px
-$laptop: 1200px
-$desktop: 1900px
-
-@mixin mobileLandscape
-  @media (min-width: #{$mobileLandscape})
-    @content
-
-@mixin tablet
-  @media (min-width: #{$tablet})
-    @content
-
-@mixin laptop
-  @media (min-width: #{$laptop})
-    @content
-
-@mixin desktop
-  @media (min-width: #{$desktop})
-    @content
+@import "mixins"
 
 
 /* Main styling */
@@ -55,7 +33,7 @@ strong
   @apply font-bold
 
 a
-  @apply text-blue no-underline
+  @apply text-blue-dark no-underline
 
   &:hover
     @apply text-blue-darker
