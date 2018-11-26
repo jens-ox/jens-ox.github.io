@@ -9,7 +9,7 @@ layout: page
     <li>
       <b>{{ activity.date }}</b>:
       {% if activity.url %}
-        <a href="{{ activity.url }}">{{ activity.type }} ({% if activity.distance %}{{ activity.distance}} km{% else %}{{ activity.time }} h{% endif %})</a>
+        <a href="{{ activity.url }}">{{ activity.type }} ({% if activity.distance %}{{ activity.distance}} km{% else %}{{ activity.time }} min{% endif %})</a>
       {% else %}
         {{ activity.type }} ({% if activity.distance %}{{ activity.distance}} km{% else %}{{ activity.time }} min{% endif %})
       {% endif %}
