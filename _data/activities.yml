@@ -1,7 +1,7 @@
-- { type: Run, date: 13. December, distance: 10, url: 'https://www.strava.com/activities/2015836868' }
-- { type: Fitness, date: 12. December, time: 70 }
-- { type: Fitness, date: 8. December, time: 72 }
-- { type: Run, date: 6. December, distance: 22.1, url: 'https://www.strava.com/activities/2003823370' }
+- { type: Run, date: 13. December 2018, distance: 10, url: 'https://www.strava.com/activities/2015836868' }
+- { type: Fitness, date: 12. December 2018, time: 70 }
+- { type: Fitness, date: 8. December 2018, time: 72 }
+- { type: Run, date: 6. December 2018, distance: 22.1, url: 'https://www.strava.com/activities/2003823370' }
 - { type: Fitness, date: 5. December 2018, time: 42 }
 - { type: Run, date: 3. December 2018, distance: 6.6, url: 'https://www.strava.com/activities/1998701913' }
 - { type: Bike, date: 1. December 2018, distance: 42.3, url: 'https://www.strava.com/activities/1994527796' }
