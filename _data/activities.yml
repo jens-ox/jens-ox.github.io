@@ -1,4 +1,5 @@
-- { type Fitness, date: 12. December, time: 70 }
+- { type: Run, date: 13. December, distance: 10, url: 'https://www.strava.com/activities/2015836868' }
+- { type: Fitness, date: 12. December, time: 70 }
 - { type: Fitness, date: 8. December, time: 72 }
 - { type: Run, date: 6. December, distance: 22.1, url: 'https://www.strava.com/activities/2003823370' }
 - { type: Fitness, date: 5. December 2018, time: 42 }
