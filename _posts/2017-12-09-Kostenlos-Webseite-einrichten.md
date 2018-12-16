@@ -28,11 +28,11 @@ Bisher hab ich meine Webseite entweder selber geschrieben oder ein CMS wie [Ghos
 Richtet man keine Extra-Domain ein, so wird die Seite letztendlich unter `[Nutzername].github.io` erreichbar sein.
 Falls man sich dafür entscheidet, eine Extra-Domain einzurichten, muss man noch die DNS-Einträge anpassen. Man muss lediglich zwei `A`-Einträge einrichten:
 
-{% include figure.html image_path="/static/images/posts/2017-12/Kostenlos-Webseite-einrichten/01.jpg" alt="DNSEinrichten" caption="Einrichten der DNS-Einträge bei Namecheap." %}
+{% include figure.html image_path="/static/images/posts/Kostenlos-Webseite-einrichten/01.jpg" alt="DNSEinrichten" caption="Einrichten der DNS-Einträge bei Namecheap." %}
 
 Anschließend muss man noch die Domain in den Einstellungen des Github-Repos eintragen:
 
-{% include figure.html image_path="/static/images/posts/2017-12/Kostenlos-Webseite-einrichten/02.jpg" alt="Github Page einrichten" caption="Eintragen der Domain in den Github Pages-Einstellungen des Repos." %}
+{% include figure.html image_path="/static/images/posts/Kostenlos-Webseite-einrichten/02.jpg" alt="Github Page einrichten" caption="Eintragen der Domain in den Github Pages-Einstellungen des Repos." %}
 
 Nun muss nur noch Jekyll aufgesetzt werden. Gegebenenfalls muss davor noch Ruby gemeinsam mit gem installiert werden.
 
