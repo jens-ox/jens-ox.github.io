@@ -4,9 +4,10 @@ comments: false
 title: Hi!
 ---
 
-My name is Jens Ochsenmeier, I'm a Computer Science and Mathematics student at the [Karlsruhe Institute of Technology (KIT)](https://kit.edu/) and work in Data Engineering for Robotics at [ArtiMinds Robotics](https://artiminds.com). Previously, I worked in Data Mining for Production Control at [Daimler AG](https://daimler.com). 
+My name is Jens Ochsenmeier, I work in Data Engineering for Robotics at [ArtiMinds Robotics](https://artiminds.com). Previously, I studied Computer Science and Mathematics at the [Karlsruhe Institute of Technology (KIT)](https://kit.edu/) and worked in Data Mining for Production Control at [Daimler AG](https://daimler.com).
 
 My main interests are
+
 - production control for modern production environments,
 - real-time handling and analysis of large amounts of data and
 - modern web technologies.

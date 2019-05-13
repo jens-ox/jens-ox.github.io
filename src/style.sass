@@ -8,6 +8,7 @@
 
 /* Main styling */
 html
+  @apply bg-grey-lighter
   font-family: $font-sans
 
 @supports (font-variation-settings: normal)
@@ -39,7 +40,8 @@ a
     @apply text-blue-darker
 
 ul, ol
-  @apply ml-4 mb-4
+  @apply ml-4
+  padding-inline-start: 1em
 
 .page
   @apply m-4 mt-0
