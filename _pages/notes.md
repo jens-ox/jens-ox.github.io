@@ -23,7 +23,7 @@ During my studies, I wrote summaries and other materials for most of the courses
 ### Computer Science
 
 - **Operating Systems**: Summary [[pdf](https://github.com/jens-ox/OS/raw/master/main.pdf)] [[github](https://github.com/jens-ox/OS)]
-- **Algorithms II**: Summary [[pdf](https://github.com/jens-ox/AlgoII/raw/master/main.pdf)] [[github](https://github.com/jens-ox/AlgoII)]
+- **Algorithms II**: Lecture notes [[pdf](https://github.com/jens-ox/AlgoII-Skript/raw/master/main.pdf)] [[github](https://github.com/jens-ox/AlgoII-Skript)]
 - **Database Systems**: Summary [[pdf](https://github.com/jens-ox/DBS/raw/master/main.pdf)] [[github](https://github.com/jens-ox/DBS)]
 - **Computer Networks**: Summary [[pdf](https://github.com/jens-ox/RN-2/raw/master/main.pdf)] [[github](https://github.com/jens-ox/RN-2)]
 - **Computer Organization**: Summary [[pdf](https://github.com/jens-ox/RO/raw/master/Zusammenfassung-RO.pdf)] [[github](https://github.com/jens-ox/RO)]
