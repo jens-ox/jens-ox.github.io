@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "homepage"
   spec.version       = "0.0.1"
-  spec.authors       = ["Jens Ochsenmeier"]
+  spec.authors       = ["Jens Ox"]
   spec.email         = ["mail@jens-ox.de"]
  
   spec.summary       = %q{A clean and minimal theme for writers.}

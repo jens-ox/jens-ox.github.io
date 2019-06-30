@@ -22,5 +22,5 @@
     "build": "gulp css",
     "dev": "gulp"
   },
-  "author": "Jens Ochsenmeier"
+  "author": "Jens"
 }

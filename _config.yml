@@ -1,7 +1,7 @@
 # Site Settings
 encoding                 : "utf-8"
 locale                   : "en"
-title                    : "Jens Ochsenmeier"
+title                    : "Jens"
 title_separator          : "-"
 description              : "My personal homepage. Here you can find information about me and my projects and a lot of university related stuff."
 favicon                  : "/static/images/favicon.ico"
@@ -11,7 +11,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog" leave bla
 
 # Site Author
 author:
-  name                   : "Jens Ochsenmeier" # appears in the footer and atom feed
+  name                   : "Jens Ox" # appears in the footer and atom feed
 
 atom_feed:
   path                   : # blank (default) uses feed.xml
